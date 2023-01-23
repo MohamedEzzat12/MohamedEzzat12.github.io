@@ -2,6 +2,8 @@
 @media screen and (max-width: 800px) {
   #nav, #content {
     display: none;
+    width: 0;
+    height: 0;
   }
   body{
     width: 100vw;
@@ -14,7 +16,6 @@
     content: 'Sorry! The website is not available on this device. Try IPad, Laptop, or PC. Thanks!';
     position: absolute;
     top: 50%;
-    left: 20%;
     font-size: 30px;
   }
 }
