@@ -1,7 +1,14 @@
 @charset "UTF-8";
 @media screen and (max-width: 800px) {
-  #nav, #content {
+  #content {
     display: none;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  #nav {
+    display: none;
+    visibility: hidden;
     width: 0;
     height: 0;
   }
@@ -16,6 +23,7 @@
     content: 'Sorry! The website is not available on this device. Try IPad, Laptop, or PC. Thanks!';
     position: absolute;
     top: 50%;
+    left: 10%;
     font-size: 30px;
   }
 }
